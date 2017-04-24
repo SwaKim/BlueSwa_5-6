@@ -38,6 +38,9 @@ public class Question {
 	@JsonProperty
 	private String contents;
 	
+	@JsonProperty
+	private Integer countOfAnswer = 0;
+	
 	private LocalDateTime createDate;
 	
 	@OneToMany(mappedBy="question") //해당값은 Answer.java에서 OneToMany에 지정된 쉴드의 이름 question
@@ -71,6 +74,14 @@ public class Question {
 		return this.writer.equals(loginUser);
 	}
 
+	public void addAnswer() {
+		this.countOfAnswer += 1;
+	}
+
+	public void deleteAnswer() {
+		this.countOfAnswer -= 1;
+	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -95,4 +106,5 @@ public class Question {
 			return false;
 		return true;
 	}
+
 }
