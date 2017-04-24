@@ -1,4 +1,4 @@
-package com.Bluswa.tistory.web;
+package com.blueswa.tistory.web;
 
 import javax.servlet.http.HttpSession;
 
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.Bluswa.tistory.domain.Answer;
-import com.Bluswa.tistory.domain.AnswerRepository;
-import com.Bluswa.tistory.domain.Question;
-import com.Bluswa.tistory.domain.QuestionRepository;
-import com.Bluswa.tistory.domain.User;
+import com.blueswa.tistory.domain.Answer;
+import com.blueswa.tistory.domain.AnswerRepository;
+import com.blueswa.tistory.domain.Question;
+import com.blueswa.tistory.domain.QuestionRepository;
+import com.blueswa.tistory.domain.User;
 
 @Controller
 @RequestMapping("/questions/{questionId}/answers")	///questions/{questionId}는 없어도 되지만

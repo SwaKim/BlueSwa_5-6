@@ -1,4 +1,4 @@
-package com.Bluswa.tistory.web;
+package com.blueswa.tistory.web;
 
 import javax.servlet.http.HttpSession;
 
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.Bluswa.tistory.domain.Question;
-import com.Bluswa.tistory.domain.QuestionRepository;
-import com.Bluswa.tistory.domain.Result;
-import com.Bluswa.tistory.domain.User;
+import com.blueswa.tistory.domain.Question;
+import com.blueswa.tistory.domain.QuestionRepository;
+import com.blueswa.tistory.domain.Result;
+import com.blueswa.tistory.domain.User;
 
 @Controller
 @RequestMapping("/questions")

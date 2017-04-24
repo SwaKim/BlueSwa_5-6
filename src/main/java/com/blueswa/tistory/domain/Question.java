@@ -1,4 +1,4 @@
-package com.Bluswa.tistory.domain;
+package com.blueswa.tistory.domain;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

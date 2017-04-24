@@ -1,4 +1,4 @@
-package com.Bluswa.tistory.domain;
+package com.blueswa.tistory.domain;
 
 public class Result {
 	private boolean valid;

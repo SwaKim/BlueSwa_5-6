@@ -1,11 +1,11 @@
-package com.Bluswa.tistory.web;
+package com.blueswa.tistory.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.Bluswa.tistory.domain.QuestionRepository;
+import com.blueswa.tistory.domain.QuestionRepository;
 
 @Controller
 public class HomeController {

@@ -1,4 +1,4 @@
-package com.Bluswa.tistory.domain;
+package com.blueswa.tistory.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

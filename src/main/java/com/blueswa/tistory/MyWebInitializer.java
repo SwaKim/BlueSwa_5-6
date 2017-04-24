@@ -1,4 +1,4 @@
-package com.Bluswa.tistory;
+package com.blueswa.tistory;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

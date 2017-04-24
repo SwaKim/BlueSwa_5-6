@@ -1,4 +1,4 @@
-package com.Bluswa.tistory;
+package com.blueswa.tistory;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;

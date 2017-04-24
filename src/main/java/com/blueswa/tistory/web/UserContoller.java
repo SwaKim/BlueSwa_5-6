@@ -1,4 +1,4 @@
-package com.Bluswa.tistory.web;
+package com.blueswa.tistory.web;
 
 import javax.servlet.http.HttpSession;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.Bluswa.tistory.domain.User;
-import com.Bluswa.tistory.domain.UserRepository;
+import com.blueswa.tistory.domain.User;
+import com.blueswa.tistory.domain.UserRepository;
 
 @Controller
 @RequestMapping("/users")

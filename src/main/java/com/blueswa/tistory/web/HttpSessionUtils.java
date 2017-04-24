@@ -1,8 +1,8 @@
-package com.Bluswa.tistory.web;
+package com.blueswa.tistory.web;
 
 import javax.servlet.http.HttpSession;
 
-import com.Bluswa.tistory.domain.User;
+import com.blueswa.tistory.domain.User;
 
 public class HttpSessionUtils {
 	public static final String USER_SESSION_KEY = "sessionedUser";//4-4 컨벤션(관습,관레)으로 대문자, 이변 수는 상수로 판단
